@@ -64,6 +64,11 @@ button {
     height: 32px;
 }
 
+button.active {
+    background-color: #333333;
+    color: white;
+}
+
 #grid {
     display: grid;
     height: 500px;
@@ -72,4 +77,8 @@ button {
 
 .grid-element {
     border: solid black 1px;
+}
+
+.grid-element:hover {
+    background-color: lightblue;
 }
